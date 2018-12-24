@@ -1,32 +1,49 @@
-# Prerequisites
-*.d
+tags
+cscope.out
+**/*.swp
+**/*.swo
+.swp
+*.swp
+.swo
+.TMP
+-.d
+eastl_build_out
+build_bench
+bench.bat
+build.bat
+.p4config
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+## CMake generated files
+CMakeCache.txt
+cmake_install.cmake
 
-# Precompiled Headers
-*.gch
-*.pch
+## Patch files
+*.patch
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+## For Visual Studio Generated projects
+*.sln
+**/*.vcxproj
+**/*.vcxproj.filters
+*.VC.opendb
+*.sdf
+**/*.suo
+**/*.user
+.vs/*
+**/Debug/*
+CMakeFiles/*
+EASTL.dir/**
+RelWithDebInfo/*
+Release/*
+Win32/*
+x64/*
+MinSizeRel/*
+build*/*
+Testing/*
+%ALLUSERSPROFILE%/*
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Buck
+/buck-out/
+/.buckd/
+/buckaroo/
+.buckconfig.local
+BUCKAROO_DEPS
